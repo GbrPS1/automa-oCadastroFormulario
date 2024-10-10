@@ -7,6 +7,7 @@ Este projeto realiza a automação do processo de cadastro de produtos em um for
 - Leitura de uma planilha Excel contendo detalhes dos produtos (codigo, marca, tipo, etc.).
 - Preenchimento automático dos campos do formulário do site.
 - Submissão dos dados de forma sequencial para o cadastro de múltiplos produtos.
+- Ferramenta adicional para capturar a posição dos campos no formulário (arquivo pegar_posição.py).
 
 ## 🔧 Tecnologias Utilizadas
 
@@ -52,4 +53,5 @@ Este projeto realiza a automação do processo de cadastro de produtos em um for
 ## ⚠️ Observações
 
 - Certifique-se de que a janela do navegador está visível e o formulário do site está devidamente posicionado na tela.
+- Utilize o pegar_posição.py para ajustar as coordenadas de acordo com sua tela, caso necessário.
 - Ajuste os tempos de espera no código, caso necessário, para evitar problemas de sincronização.
